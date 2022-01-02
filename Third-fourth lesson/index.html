@@ -11,7 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="header">
+        <span class="logo">MA</span>
         <nav class="nav">
             <a class="nav__link" href="index.html">Home</a>
             <a class="nav__link" href="about.html">About</a>
@@ -24,12 +25,14 @@
         <h1 class="title">Mate academy</h1>
 
         <section>
-            <p class="text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptatibus perferendis tempora impedit porro natus modi autem debitis unde, consequuntur eum omnis libero voluptatum alias quidem repellendus, cumque facere.
-            </p>
-            <p class="text">
-                Maxime quas temporibus repellat unde ratione earum, dignissimos adipisci id magni expedita a vel commodi ipsum impedit praesentium repudiandae autem ipsa.
-            </p>
+            <article>
+                <p class="text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptatibus perferendis tempora impedit porro natus modi autem debitis unde, consequuntur eum omnis libero voluptatum alias quidem repellendus, cumque facere.
+                </p>
+                <p class="text">
+                    Maxime quas temporibus repellat unde ratione earum, dignissimos adipisci id magni expedita a vel commodi ipsum impedit praesentium repudiandae autem ipsa.
+                </p>
+            </article>
         </section>
         <section>
             <h2>Форматы обучения</h2>
@@ -49,24 +52,26 @@
         <section>
             <h2>Наши курсы</h2>
         
-            <article>
-                <h3>HTML CSS</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, mollitia.
-                </p>
-            </article>
-            <article>
-                <h3>Javascript</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, nesciunt!
-                </p>
-            </article>
-            <article>
-                <h3>React</h3>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas possimus harum repellendus distinctio doloremque vero tenetur illum optio eos vel.
-                </p>
-            </article>
+            <div class="courses">
+                <article class="course">
+                    <h3>HTML CSS</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, mollitia.
+                    </p>
+                </article>
+                <article class="course">
+                    <h3>Javascript</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, nesciunt!
+                    </p>
+                </article>
+                <article class="course">
+                    <h3>React</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas possimus harum repellendus distinctio doloremque vero tenetur illum optio eos vel.
+                    </p>
+                </article>
+            </div>
         </section>
     </main>
     
