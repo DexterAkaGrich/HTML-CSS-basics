@@ -1,0 +1,56 @@
+/* @font-face {
+    font-family: Roboto;
+    src: url(fonts/Toboto-Regular.ttf);
+} */
+html {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+}
+
+body {
+    margin: 0;
+}
+
+.nav {
+    font-size: 1.25rem;
+    padding: 0.5em 0;
+    text-align: center;
+    background-color: black;
+}
+
+.nav__link {
+    margin: 0 1em;
+    color: white;
+    text-decoration: none;
+
+}
+.container {
+    font-size: 1.25rem;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.text {
+    text-align: justify;
+}
+
+.title {
+    font-size: 2rem;
+    margin: 0.5em 0;
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+.footer {
+    height: 100px;
+    
+    line-height: 100px;
+    text-align: center;
+    background-color: rgb(30%, 10%, 50%);
+    background-color: rgb(40, 40, 40);
+    background-color: #808080;
+    color: white;
+}
