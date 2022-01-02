@@ -1,0 +1,25 @@
+body {
+    font-family: Arial;
+    font-size: 20px;
+    margin: 0;
+}
+
+h1 {
+    background-color: cyan;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+}
+
+.container {
+    text-decoration: underline;
+    color: rgb(221, 6, 6);
+}
+
+.phrase {
+    color: burlywood;
+}
+
+
