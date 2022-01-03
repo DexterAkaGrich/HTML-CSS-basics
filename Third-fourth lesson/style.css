@@ -12,6 +12,7 @@ body {
 }
 
 .logo {
+    display: inline-block;
     margin-right: 60px;
     border: 1px solid #fff;
     padding: 3px;
@@ -20,19 +21,21 @@ body {
 
 .header {
     font-size: 1.25rem;
-    padding: 0.5em 0;
+    /* padding: 0.5em 0; */
     text-align: center;
     background-color: black;
 }
 
 .nav {
-    display: inline;
+    display: inline-block;
 }
 .nav__link {
-    margin: 0 1em;
+    display: inline-block;
+    font-size: 18px;
+    margin: 0 10px;
+    padding: 10px 5px;
     color: white;
     text-decoration: none;
-
 }
 .container {
     font-size: 1.25rem;
