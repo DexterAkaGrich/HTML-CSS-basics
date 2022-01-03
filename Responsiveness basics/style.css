@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+.box {
+    height: 100px;
+    background-color: cornflowerblue;
+}
+
+/* .outer {
+    box-sizing: border-box;
+     width: 100%; 
+    margin: 30px;
+    padding: 30px;
+    background-color: powderblue;
+} */
+
+/* .inner {
+    height: 50%;
+    width: 50%;
+    background-color: orange;
+} */
